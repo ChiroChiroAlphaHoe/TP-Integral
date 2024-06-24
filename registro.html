@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Sanchez, Sergio Gustavo. Vazquez Petrigliano, Juliana">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logoalfajoreria.jpg">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <div id="early">
+            <a href="home.html"><img src="logoalfajoreria.jpg" width="140" height="120" alt="Logotipo"></a>
+         </div>
+         <h1 class="titulo">Alfajorería Chiro y Zergio</h1>
+         <nav>
+             <ul class="menu">
+                 <li><img class="icono" src="iconos/inicio.png" alt="Inicio"></li>
+                 <li><a href="home.html#prod"><img class="icono" src="iconos/compra.png" alt="Nuestros Productos"></a></li>
+                 <li><a href="ingresar.html"><img class="icono" src="iconos/sesion.png" alt="Ingresar"></a></li>
+                 <li><a href="encuestas.html"><img class="icono" src="iconos/encuesta.png" alt="Encuestas para nuestros clientes"></a></li>
+             </ul>
+         </nav>
+    </header>
+    <h1 class="titulo">Crea tu usuario</h1>
+    <form class="usuario">
+        <label for="Nombre"><b>Nombre de usuario</b></label>
+        <input type="text" placeholder="Ingrese su nombre de usuario aquí" name="Nombre">
+         <br><br>
+         <label for="birth"><b>Fecha de nacimiento</b></label>
+         <input type="date">
+         <br><br>
+         <label for="genero"><b>Género</b></label>
+         <input type="checkbox">Femenino
+         <input type="checkbox">Masculino
+         <input type="checkbox">No Binario
+         <input type="checkbox">Prefiero no decir
+         <br><br>
+         <label for="email"><b>Correo Electrónico</b></label>
+         <input type="email" placeholder="Ingrese su dirección de correo electrónico aquí" name="email">
+         <br><br>
+         <label for="tel"><b>Número Telefónico</b></label>
+         <input type="tel" placeholder="Ingrese su número telefónico">
+         <br><br>
+         <label for="password"><b>Contraseña</b></label>
+         <input type="password" placeholder="Ingrese su contraseña aquí" name="password">
+         <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
